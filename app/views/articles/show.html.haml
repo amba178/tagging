@@ -1,0 +1,8 @@
+%h1= @article.name 
+= simple_format @article.content 
+
+%p 
+	= link_to 'Edit Article', edit_article_path(@article)
+	|
+	= link_to 'Back to Aricles', articles_path 
+

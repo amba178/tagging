@@ -1,0 +1,17 @@
+
+.form-group.col-sm-6.col-sm-offset-3
+	
+	=f.label :name, class: "control-label text-right"
+	
+	=f.text_field :name, class: 'form-control '
+
+	=f.label :tag_list, "Tags (separated by commas)", class: "control-label text-right"
+	
+	=f.text_field :tag_list , class: 'form-control'
+
+
+
+	=f.label :content, class: "control-label text-right"
+	
+	=f.text_area :content , cols: 287, rows: 10, class: 'form-control'
+
